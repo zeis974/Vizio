@@ -1,0 +1,21 @@
+{
+  "name": "server",
+  "author": {
+    "name": "zeis974"
+  },
+  "module": "server.ts",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "scripts": {
+    "dev": "bun run src/server.ts",
+    "build": "bun build --compile --minify src/server.ts --outfile output/server"
+  },
+  "type": "module",
+  "dependencies": {
+    "picocolors": "^1.0.0"
+  }
+}
