@@ -1,0 +1,14 @@
+{
+  "name": "vizio",
+  "version": "0.0.0",
+  "description": "",
+  "private": true,
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "dev:web": "cd apps/client && bun dev",
+    "dev:server": "cd apps/server && bun dev"
+  },
+  "author": "zeis974 <hi@zeis.dev>"
+}
