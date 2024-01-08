@@ -1,5 +1,5 @@
 {
-  "name": "server",
+  "name": "@vizio/server",
   "author": {
     "name": "zeis974"
   },
@@ -17,5 +17,10 @@
   "type": "module",
   "dependencies": {
     "picocolors": "^1.0.0"
-  }
+  },
+  "os": [
+    "darwin",
+    "linux",
+    "!win32"
+  ]
 }

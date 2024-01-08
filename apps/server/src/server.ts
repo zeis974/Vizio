@@ -1,6 +1,5 @@
 import pc from "picocolors";
 import logger from "./logger";
-import { throws } from "assert";
 
 interface User {
  id: string;
