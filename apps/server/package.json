@@ -4,11 +4,11 @@
     "name": "zeis974"
   },
   "module": "server.ts",
-  "devDependencies": {
-    "bun-types": "latest"
-  },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.0.4"
   },
   "scripts": {
     "dev": "bun run src/server.ts",
